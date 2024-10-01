@@ -12,7 +12,7 @@ app.use(compression())
 
 // init db
 
-
+console.log("ahihi")
 // init routes
 app.get('/', (req, res, next) => {
     return res.status(200).json({
